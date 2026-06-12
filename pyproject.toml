@@ -1,0 +1,28 @@
+[build-system]
+requires = ["hatchling>=1.26"]     
+build-backend = "hatchling.build"
+
+[project]
+# General project onformation
+description = "SSH connections manager with tunneling support"
+dymanic = ["version"]
+readme = "README.md"
+name = "ssh_manager"
+license = "MIT"
+
+# Authors
+authors = [{name = "Vladimir Reymer", email = "vladimireymer@gmail.com"}]
+maintainers = [{"vladimireymer@gmail.com"}]
+
+# Python version and dependencies
+requires-python = ">=3.11.3"
+dependencies = [
+    "asyncssh==2.23.1",
+    "bcrypt==5.0.0"
+]
+
+[project.urls]
+repository = "https://github.com/peymone/py-ssh-connections-manager.git"
+
+[tool.setuptools.packages.find]
+where = ["."]
