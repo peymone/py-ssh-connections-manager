@@ -5,7 +5,7 @@ build-backend = "hatchling.build"
 [project]
 # General project onformation
 description = "SSH connections manager with tunneling support"
-dymanic = ["version"]
+dynamic = ["version"]
 readme = "README.md"
 name = "ssh_manager"
 license = "MIT"
