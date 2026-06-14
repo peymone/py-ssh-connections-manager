@@ -12,7 +12,7 @@ license = "MIT"
 
 # Authors
 authors = [{name = "Vladimir Reymer", email = "vladimireymer@gmail.com"}]
-maintainers = [{"vladimireymer@gmail.com"}]
+maintainers = ["vladimireymer@gmail.com"]
 
 # Python version and dependencies
 requires-python = ">=3.11.3"
