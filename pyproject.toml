@@ -11,10 +11,11 @@ packages = ["ssh_manager"]
 [project]
 authors = [{name = "Vladimir Reymer", email = "vladimireymer@gmail.com"}]
 description = "SSH connections manager with tunneling support"
-dynamic = ["version"]
 readme = "README.md"
 name = "ssh_manager"
+version = "0.1.0"
 license = "MIT"
+
 
 # Python version and dependencies
 requires-python = ">=3.11.3"
